@@ -28,10 +28,9 @@ form {
 
     border-radius: 20px;
     background-color: #505050;
-
-    width: 28vw;
-    height: 88vh;
     transition: ease-out .2s;
+
+    padding: 32px;
 }
 
 p {
@@ -50,6 +49,14 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-family: 'Anybody', cursive;
+    color: #d3d6d4;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
 select {
     padding: 16px 24px;
     border-radius: 10px;
@@ -59,7 +66,7 @@ select {
     margin-bottom: 24px;
     background-color: #fafafa;
     color: #202020;
-    width: 20vw;
+    width: 100%;
 }
 
 select option {
@@ -68,7 +75,7 @@ select option {
 
 input {
     font-family: 'Anybody', cursive;
-    width: 20vw;
+    width: 100%;
     height: 56px;
     border-radius: 10px;
     border: none;
