@@ -8,23 +8,23 @@ function resultado() {
     let cor_res = document.getElementById("cor_res")
     let btn = document.getElementById("btn")
     if (cmd == 'Fogo' && hec == 'Controle de Elementos') {
-        document.getElementById("res").innerHTML = 'Passou na qualificação';
+        document.getElementById("res").innerHTML = 'Você atende aos requisitos para se tornar um aprendiz na Academia Arcana.';
         cor_res.style.backgroundColor = "#8dd8a9"
         btn.style.backgroundColor = "#8dd8a9"
     } else if (cmd == 'Cura' && hec == 'Feitiços de Proteção') {
-        document.getElementById("res").innerHTML = 'Passou na qualificação';
+        document.getElementById("res").innerHTML = 'Você atende aos requisitos para se tornar um aprendiz na Academia Arcana.';
         cor_res.style.backgroundColor = "#8dd8a9"
         btn.style.backgroundColor = "#8dd8a9"
     } else if (cmd == 'Transformação' && grm >= 8) {
-        document.getElementById("res").innerHTML = 'Passou na qualificação';
+        document.getElementById("res").innerHTML = 'Você atende aos requisitos para se tornar um aprendiz na Academia Arcana.';
         cor_res.style.backgroundColor = "#8dd8a9"
         btn.style.backgroundColor = "#8dd8a9"
     } else if (cmd == 'Ilusão' && eup == 'Sim' && dte == 'Sim') {
-        document.getElementById("res").innerHTML = 'Passou na qualificação';
+        document.getElementById("res").innerHTML = 'Você atende aos requisitos para se tornar um aprendiz na Academia Arcana.';
         cor_res.style.backgroundColor = "#8dd8a9"
         btn.style.backgroundColor = "#8dd8a9"
     } else {
-        document.getElementById("res").innerHTML = 'Não passou na qualificação';
+        document.getElementById("res").innerHTML = 'Infelizmente, você não atende aos requisitos para se tornar um aprendiz na Academia Arcana.';
         cor_res.style.backgroundColor = "#d88d8d"
         btn.style.backgroundColor = "#d88d8d"
     }
