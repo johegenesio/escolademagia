@@ -29,8 +29,9 @@ form {
     border-radius: 20px;
     background-color: #505050;
 
-    width: 25vw;
-    height: 85vh;
+    width: 28vw;
+    height: 88vh;
+    transition: ease-out .2s;
 }
 
 p {
@@ -55,10 +56,10 @@ select {
     font-family: 'Anybody', cursive;
     border: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     background-color: #fafafa;
     color: #202020;
-    width: 16vw;
+    width: 20vw;
 }
 
 select option {
@@ -67,7 +68,7 @@ select option {
 
 input {
     font-family: 'Anybody', cursive;
-    width: 16vw;
+    width: 20vw;
     height: 56px;
     border-radius: 10px;
     border: none;
