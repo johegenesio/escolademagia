@@ -38,6 +38,7 @@ p {
     margin-bottom: 4px;
     color: #fafafa;
     font-weight: 300;
+    text-align: center;
 }
 
 h1 {
@@ -67,7 +68,7 @@ select option {
 input {
     font-family: 'Anybody', cursive;
     width: 16vw;
-    height: 3vw;
+    height: 56px;
     border-radius: 10px;
     border: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
