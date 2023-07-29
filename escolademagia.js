@@ -7,7 +7,6 @@ function resultado() {
     let dpc = document.getElementById("aprender").value;
     let cor_res = document.getElementById("cor_res")
     let btn = document.getElementById("btn")
-
     if (cmd == 'Fogo' && hec == 'Controle de Elementos') {
         document.getElementById("res").innerHTML = 'Passou na qualificação';
         cor_res.style.backgroundColor = "#8dd8a9"

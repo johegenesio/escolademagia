@@ -46,12 +46,6 @@ h1 {
     font-size: 40px;
 }
 
-h2 {
-    font-family: 'Anybody', cursive;
-    margin-bottom: 32px;
-    color: #fafafa;
-}
-
 select {
     padding: 16px 24px;
     border-radius: 10px;
