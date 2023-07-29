@@ -1,18 +1,32 @@
-let CMD = window.prompt('Qual sua capacidade mágica dominante').toLowerCase();
-let HEC = window.prompt('Qual sua habilidade específica').toLowerCase();
-let GRPM = window.prompt('Qual seu grau de respeito pela magia');
-let AEUP = window.prompt('Qual sua adesão à ética na utilização dos poderes').toLowerCase();
-let DPE = window.prompt('Qual sua disposição para trabalhar em equipe').toLowerCase();
-let DAC = window.prompt('Qual seu desejo de aprender constantemente').toLowerCase();
+function resultado() {
+    let cmd = document.getElementById("poder").value;
+    let hec = document.getElementById("habilidade").value;
+    let grm = document.getElementById("grau_respeito").value;
+    let eup = document.getElementById("etica").value;
+    let dte = document.getElementById("equipe").value;
+    let dpc = document.getElementById("aprender").value;
+    let cor_res = document.getElementById("cor_res")
+    let btn = document.getElementById("btn")
 
-if (CMD === 'fogo' && HEC === 'controle de elementos') {
-    console.log('Passou no teste');
-} else if (CMD === 'cura' && HEC === 'feitiços de proteção') {
-    console.log('Passou no teste');
-} else if (CMD === 'transformação' && GRPM >= 8) {
-    console.log('Passou no teste');
-} else if (CMD === 'ilusão' && AEUP === 'sim' && DPE === 'sim') {
-    console.log('Passou no teste');
-} else {
-    console.log('Não passou no teste');
+    if (cmd == 'Fogo' && hec == 'Controle de Elementos') {
+        document.getElementById("res").innerHTML = 'Passou na qualificação';
+        cor_res.style.backgroundColor = "#8dd8a9"
+        btn.style.backgroundColor = "#8dd8a9"
+    } else if (cmd == 'Cura' && hec == 'Feitiços de Proteção') {
+        document.getElementById("res").innerHTML = 'Passou na qualificação';
+        cor_res.style.backgroundColor = "#8dd8a9"
+        btn.style.backgroundColor = "#8dd8a9"
+    } else if (cmd == 'Transformação' && grm >= 8) {
+        document.getElementById("res").innerHTML = 'Passou na qualificação';
+        cor_res.style.backgroundColor = "#8dd8a9"
+        btn.style.backgroundColor = "#8dd8a9"
+    } else if (cmd == 'Ilusão' && eup == 'Sim' && dte == 'Sim') {
+        document.getElementById("res").innerHTML = 'Passou na qualificação';
+        cor_res.style.backgroundColor = "#8dd8a9"
+        btn.style.backgroundColor = "#8dd8a9"
+    } else {
+        document.getElementById("res").innerHTML = 'Não passou na qualificação';
+        cor_res.style.backgroundColor = "#d88d8d"
+        btn.style.backgroundColor = "#d88d8d"
+    }
 }

@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Seleção de Candidatos | Escola de Magia</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="selecao">
+        <form action="">
+            <h2>Insira as informações</h2>
+            <p>Capacidade mágica dominante</p>
+            <select id="poder">
+                <option value="Fogo">Fogo</option>
+                <option value="Cura">Cura</option>
+                <option value="Transformação">Transformação</option>
+                <option value="Ilusão">Ilusão</option>
+            </select>
+            <p>Habilidade específica</p>
+            <select id="habilidade">
+                <option value="Controle de Elementos">Controle de Elementos</option>
+                <option value="Invocação de Criaturas Místicas">Invocação de Criaturas Místicas</option>
+                <option value="Leitura de Pergaminhos Antigos">Leitura de Pergaminhos Antigos</option>
+                <option value="Feitiços de Proteção">Feitiços de Proteção</option>
+            </select>
+            <p>Grau de respeito pela magia</p>
+            <select id="grau_respeito">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <p>Adesão à ética na utilização dos poderes</p>
+            <select id="etica">
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <p>Disposição para trabalhar em equipe</p>
+            <select id="equipe">
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <p>Desejo de aprender constantemente</p>
+            <select id="aprender">
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <input type="button" value="Resultado" onclick="resultado()" id="btn">
+        </form>
+    </div>
+    <div class="resultado" id="cor_res" onclick="resultado()">
+        <h1 id="res"></h1>
+    </div>
     <script src="escolademagia.js"></script>
 </body>
 </html>

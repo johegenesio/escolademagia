@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.selecao {
+    background-color: #202020;
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color: #505050;
+
+    width: 25vw;
+    height: 85vh;
+}
+
+p {
+    font-family: 'Anybody', cursive;
+    margin-bottom: 4px;
+    color: #fafafa;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Anybody', cursive;
+    color: #202020;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Anybody', cursive;
+    margin-bottom: 32px;
+    color: #fafafa;
+}
+
+select {
+    padding: 16px 24px;
+    border-radius: 10px;
+    font-family: 'Anybody', cursive;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 32px;
+    background-color: #fafafa;
+    color: #202020;
+    width: 16vw;
+}
+
+select option {
+    font-family: 'Anybody', cursive;
+}
+
+input {
+    font-family: 'Anybody', cursive;
+    width: 16vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #d3d6d4;
+    color: #202020;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: #9e9e9e;
+    transition: ease-out 0.2s;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    font-family: 'Anybody', cursive;
+    background: #fafafa;
+}
