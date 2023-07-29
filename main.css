@@ -12,7 +12,7 @@ body {
 
 .selecao {
     background-color: #202020;
-    width: 50vw;
+    width: 35vw;
     height: 100vh;
 
     display: flex;
@@ -45,7 +45,7 @@ h1 {
     font-family: 'Anybody', cursive;
     color: #202020;
     text-align: center;
-    margin: 96px;
+    margin: 88px;
     font-size: 40px;
 }
 
@@ -96,7 +96,7 @@ input:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 65vw;
     font-family: 'Anybody', cursive;
     background: #fafafa;
     transition: ease-out .2s;
